@@ -1,0 +1,128 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0D0D0D;
+    color: #FFFFFF;
+}
+
+/* Header styling */
+header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #f0c020;
+}
+header img {
+    height: 70px;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #f0c020;
+}
+
+/* Hero section styling */
+.hero {
+    background-image: url('https://example.com/dc-hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #f0c020;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 4em;
+    font-weight: normal;
+    color: #f0c020;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    margin: 0;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* Content section styling */
+main {
+    padding: 20px;
+}
+.content {
+    text-align: center;
+    padding: 20px 0;
+}
+.content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #f0c020;
+}
+
+/* Card container styling */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Card styling */
+.card {
+    background-color: #1A1A1A;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.6);
+}
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.card h3 {
+    color: #f0c020;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.card p {
+    color: #b3b3b3;
+}
+
+/* Footer styling */
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #f0c020;
+    margin-top: 30px;
+}
+footer p {
+    color: #b3b3b3;
+    font-size: 0.9em;
+}
